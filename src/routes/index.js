@@ -11,5 +11,9 @@ router.get('/contact', (req, res) => {
   res.render('contact.ejs', { tittle: 'Contact', name: 'Diego' });
 });
 
+router.get('/about', (req, res) => {
+  res.render('about.ejs', { tittle: 'About'});
+});
+
 //Export
 module.exports = router;
